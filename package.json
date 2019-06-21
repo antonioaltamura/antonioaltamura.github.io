@@ -1,0 +1,13 @@
+{
+  "name": "antonioaltamura.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "purifycss": "purifycss sources/style.css index.html -o out.css"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0"
+  }
+}
