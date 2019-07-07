@@ -12,7 +12,7 @@
     <meta property="twitter:card" content="summary_large_image">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900&display=swap"
           rel="stylesheet">
-    <link href="assets/style.min.css" rel="stylesheet" type="text/css">
+   <link href="assets/style.min.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
@@ -38,7 +38,7 @@
                         <div id="photo" class="image"><img src="./assets/photo.png" alt=""></div>
 
                         <?xml version="1.0" encoding="utf-8"?>
-                        <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg"
+                        <svg version="1.1" id="" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                              viewBox="0 0 176.64 59.14" style="enable-background:new 0 0 176.64 59.14;"
                              xml:space="preserve">
@@ -405,14 +405,14 @@
                 $body.addClass('is-stopped');
                 $body.removeClass('is-playing');
             }, 2000);
-        }, 100);
+        }, 1000);
     }
 
     $(document).ready(function () {
         $('#wrapper').hide();
         let my_image = new Image();
         my_image.onload = onComplete;
-        my_image.src = 'assets/landscape.png'
+        my_image.src = 'assets/landscape.jpg'
 
 
     });
